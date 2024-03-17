@@ -1,0 +1,40 @@
+/* .player-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+  
+  
+  
+  /* .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  } */ 
+
+
+  .music-start{
+    width: 100%;
+    height: 640px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+    
+  }
+  .music-start h2{
+    color:white;
+    text-align: center;
+    font-style: italic;
+  }
+  .music-start .btn{
+        width: 250px;
+        height: 120px;
+        display: flex;
+        gap:10px;
+  }
+  .music-start .btn img{
+    width: 100%;
+    height: 100%;
+  }
+ 
